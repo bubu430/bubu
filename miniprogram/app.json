@@ -1,0 +1,17 @@
+{
+  "pages": ["pages/index/index"],
+  "window": {
+    "navigationBarTitleText": "芽芽漫步",
+    "navigationBarBackgroundColor": "#f8f8f2",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#f8f8f2",
+    "backgroundTextStyle": "dark"
+  },
+  "permission": {
+    "scope.userLocation": { "desc": "仅在你点击定位时，显示当前所在位置；不持续追踪你的行程。" }
+  },
+  "requiredPrivateInfos": ["getLocation"],
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "lazyCodeLoading": "requiredComponents"
+}

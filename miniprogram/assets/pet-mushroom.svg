@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="280" viewBox="0 0 280 280" fill="none">
+  <title>菇咕，一只戴杏橙色菌帽的原创森林伙伴</title>
+  <defs><linearGradient id="cap" x1="137" y1="51" x2="137" y2="151" gradientUnits="userSpaceOnUse"><stop stop-color="#E9AC72"/><stop offset="1" stop-color="#CF8657"/></linearGradient><linearGradient id="stem" x1="140" y1="130" x2="140" y2="235" gradientUnits="userSpaceOnUse"><stop stop-color="#FFFAE9"/><stop offset="1" stop-color="#ECE1C7"/></linearGradient></defs>
+  <ellipse cx="140" cy="247" rx="70" ry="12" fill="#8C704F" opacity=".12"/>
+  <path d="M107 224c-5 14-3 22 9 22 11 0 15-9 15-15m21 0c2 11 11 17 22 12 10-5 3-15-1-22" fill="#D9C6A3"/>
+  <path d="M87 174c-23 1-30 17-19 25 10 7 18-3 26-7m94-19c23-3 33 14 22 24-9 8-18-2-26-4" fill="#F2E6CB" stroke="#D6C6A5" stroke-width="2"/>
+  <path d="M96 135c-4 26-16 53-8 75 7 19 28 27 51 27s45-6 53-25c9-22-6-52-10-77H96Z" fill="url(#stem)" stroke="#D8C8A5" stroke-width="2.5"/>
+  <path d="M140 49c-38-1-70 22-89 61-8 17-8 26 3 33 18 11 48 9 84 9 39 0 74 3 90-10 10-8 8-20 0-36-19-37-50-57-88-57Z" fill="url(#cap)" stroke="#C78F62" stroke-width="2.5"/>
+  <path d="M57 139c40-14 125-15 169 0-20 16-143 19-169 0Z" fill="#F1D0A4"/>
+  <path d="M79 90c11-13 22-21 38-25" stroke="#F5C99C" stroke-width="7" stroke-linecap="round"/>
+  <path d="M94 113c-2 10 9 16 20 10 10-5 11-15 1-19-8-4-19 0-21 9Z" fill="#F8E1B8"/>
+  <path d="M164 86c-5 10 2 17 13 15 12-2 18-11 11-18-6-6-20-5-24 3Z" fill="#F8E1B8"/>
+  <path d="M191 118c-1 6 4 9 10 6s8-9 2-12c-6-3-12 0-12 6Z" fill="#F8E1B8"/>
+  <ellipse cx="104" cy="190" rx="13" ry="8" fill="#E3AF8A" opacity=".62"/>
+  <ellipse cx="177" cy="190" rx="13" ry="8" fill="#E3AF8A" opacity=".62"/>
+  <ellipse cx="116" cy="174" rx="6.5" ry="8.5" fill="#63513D"/>
+  <ellipse cx="164" cy="174" rx="6.5" ry="8.5" fill="#63513D"/>
+  <ellipse cx="118" cy="172" rx="2" ry="2.5" fill="#FFF9E9"/>
+  <ellipse cx="166" cy="172" rx="2" ry="2.5" fill="#FFF9E9"/>
+  <path d="M133 193c3 6 10 6 14 0" stroke="#927053" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M222 188c9-7 14-3 12 2-3 7-13 11-13 11s-8-10-6-15c2-4 6-3 7 2Z" fill="#9AB781"/>
+  <path d="m54 70 2-6 3 6 6 2-6 3-3 6-2-6-6-3 6-2Z" fill="#D3B173"/>
+</svg>

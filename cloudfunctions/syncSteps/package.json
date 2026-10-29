@@ -1,0 +1,13 @@
+{
+  "name": "sprout-sync-steps",
+  "version": "1.0.0",
+  "private": true,
+  "description": "读取调用者授权的微信运动开放数据；不接收客户端自报步数",
+  "main": "index.js",
+  "dependencies": {
+    "wx-server-sdk": "4.0.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

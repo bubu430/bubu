@@ -1,0 +1,56 @@
+<view class="page" wx:if="{{view}}">
+  <view class="topbar"><view class="brand"><image src="/assets/icons/brand.png"/><view>芽芽漫步<text class="brand-en">YAYA WALK</text></view></view><button class="avatar" bindtap="about"><image src="/assets/pet-sprout.png"/></button></view>
+  <view class="hello">嗨，散步家 <text>今天也一起慢慢长大吧</text></view>
+  <view class="mode-line"><view class="mode-dot"/>{{view.isDemo ? '正在体验演示花园' : '已连接微信运动 · 本机花园'}}<button bindtap="syncSteps" loading="{{syncing}}">{{view.isDemo ? '连接微信运动' : '同步步数'}} ›</button></view>
+
+  <block wx:if="{{tab === 'home'}}">
+    <view class="hero">
+      <view class="eyebrow">每一小步，都有小美好</view><view class="hero-title"><view>把今天的脚步，</view><view>种成小小的快乐。</view></view><view class="hero-copy">{{view.selectedPet.name}}已经准备好，陪你去看看世界。</view>
+      <button class="primary hero-button" bindtap="explore"><image src="/assets/icons/walk.png"/>带{{view.selectedPet.name}}去散步</button><image class="hero-pet" src="/assets/pet-{{view.selectedPet.image}}.png"/><view class="hero-spark s1">✦</view><view class="hero-spark s2">✧</view><view class="hero-flower">✿</view>
+    </view>
+    <view class="steps-card"><view class="section-top"><view><view class="muted">今日步数 <text class="tiny-tag">{{view.isDemo ? '演示' : '微信运动'}}</text></view><view class="step-number">{{view.steps}}<text> / {{view.stepGoal}} 步</text></view></view><view class="step-leaf"><image src="/assets/icons/walk.png"/></view></view><view class="track"><view style="width: {{view.stepProgress}}%"/></view><view class="step-footer"><text>{{view.stepProgress >= 100 ? '今日目标达成，你很棒！' : '慢慢走，花会开的'}}</text><button bindtap="addSteps">体验 +500 步</button></view></view>
+    <view class="stats"><view><image src="/assets/icons/drop.png"/><text>{{view.dew}}</text><view>小露珠</view></view><view><image src="/assets/icons/flower.png"/><text>{{view.flowers}}</text><view>已种花朵</view></view><view><image src="/assets/icons/leaf.png"/><text>{{view.collections}}</text><view>伙伴图鉴</view></view></view>
+    <view class="section-title"><view>我的育苗小屋 <text>PLANT &amp; GROW</text></view><text class="light">走路就会长大</text></view>
+    <view class="nursery"><view class="seed-slot {{item.status}}" wx:for="{{view.slots}}" wx:key="id"><block wx:if="{{item.status !== 'empty'}}"><view class="slot-pill">{{item.status === 'ready' ? '可以见面啦' : '努力发芽中'}}</view><image class="seed-art" src="/assets/seedling.png"/><view class="seed-title">{{item.title}}</view><view class="slot-track"><view style="width: {{item.progress}}%"/></view><view class="slot-help">{{item.status === 'ready' ? '新伙伴在等你' : '还差 ' + item.remaining + ' 步'}}</view><button wx:if="{{item.status === 'ready'}}" class="small-primary" data-slot="{{item.id}}" bindtap="harvest">迎接伙伴</button></block><block wx:else><view class="empty-pot">＋</view><view class="seed-title">等一颗新花苗</view><view class="slot-help">把期待种下去</view><button class="small-outline" data-slot="{{item.id}}" bindtap="plant">种下花苗</button></block></view></view>
+    <view class="section-title"><view>今天的小约定 <text>DAILY MOMENTS</text></view><image class="title-icon" src="/assets/icons/sun.png"/></view>
+    <view class="tasks card"><view class="task" wx:for="{{view.tasks}}" wx:key="id"><view class="task-check {{item.claimed ? 'checked' : ''}}">{{item.claimed ? '✓' : '✧'}}</view><view class="task-text"><view>{{item.title}}</view><text>{{item.progress}} / {{item.goal}} · {{item.rewardLabel}}</text></view><button class="task-button {{item.claimable ? 'can-claim' : ''}}" disabled="{{!item.claimable}}" data-task="{{item.id}}" bindtap="claim">{{item.claimed ? '已领取' : item.claimable ? '领取' : '进行中'}}</button></view></view>
+    <view class="map-teaser" bindtap="explore"><image src="/assets/walk-map.png" mode="aspectFill"/><view class="map-teaser-label"><view>下一份惊喜，在路上</view><text>逛逛你的漫步小世界</text></view><view class="round-arrow">↗</view></view>
+  </block>
+
+  <block wx:if="{{tab === 'explore'}}">
+    <view class="page-heading">去散步吧<text>世界很大，先从身边的一小步开始。</text></view>
+    <view class="notice">演示地图与散步进度 · 不代表真实地点或轨迹</view>
+    <view class="explore-map"><image src="/assets/walk-map.png" mode="aspectFill"/><view class="map-pet {{view.walking ? 'walking' : ''}}"><image src="/assets/pet-{{view.selectedPet.image}}.png"/></view><view class="map-cloud">小芽公园 · 想象中的目的地</view></view>
+    <view class="walk-card card"><view class="section-top"><view><view class="eyebrow">{{view.walking ? '小伙伴正在陪你漫步' : '给自己一段放松的时间'}}</view><view class="walk-title">{{view.walking ? '一起慢慢走' : '开启一段小小冒险'}}</view></view><image src="/assets/icons/walk.png" class="title-icon"/></view><view class="walk-stats"><view>{{view.walk.minutes}}<text>演示分钟</text></view><view>{{view.walk.steps}}<text>演示步数</text></view><view>{{view.walk.flowers}}<text>种下花朵</text></view></view><button class="primary full" bindtap="toggleWalk">{{view.walking ? '结束演示散步' : '开始演示散步'}}</button><button wx:if="{{view.walking}}" class="secondary full" bindtap="advanceWalk">演示前进 1 分钟</button><view class="walk-note">仅演示模式可模拟前进；不会写入微信运动。</view></view>
+    <view class="location-card card"><view class="section-title"><view>看看我在哪里</view></view><text class="body-copy">定位只用于显示地图，不上传、不保存行程。</text><button class="secondary full" bindtap="locate">获取一次当前位置</button><map wx:if="{{located}}" class="real-map" latitude="{{location.latitude}}" longitude="{{location.longitude}}" show-location="{{true}}" scale="15"/><view wx:if="{{located}}" class="walk-note">上方为真实地图，游戏散步仍为演示。</view></view>
+  </block>
+
+  <block wx:if="{{tab === 'collection'}}">
+    <view class="page-heading">小小伙伴，大大陪伴<text>每一次相遇，都值得好好收藏。</text></view>
+    <view class="collection-banner"><image src="/assets/pet-{{view.selectedPet.image}}.png"/><view><view>{{view.selectedPet.name}}</view><text>{{view.selectedPet.mood}}</text><button class="small-primary" bindtap="feed">喂露珠 · 5 颗</button></view></view>
+    <view class="section-title"><view>我的伙伴 <text>{{view.totalPets}} 位</text></view><text class="light">点一下，一起出发</text></view>
+    <view class="pet-grid"><view class="pet-card {{item.selected ? 'selected' : ''}}" wx:for="{{view.pets}}" wx:key="id" data-pet="{{item.id}}" bindtap="selectPet"><view wx:if="{{item.selected}}" class="selected-label">正在陪伴</view><image src="/assets/pet-{{item.image}}.png"/><view>{{item.name}}</view><text>亲密度 {{item.friendship}}</text><button class="small-outline" data-pet="{{item.id}}" catchtap="feed">喂露珠 · 5 颗</button></view></view>
+    <view class="section-title"><view>花苗小铺 <text>SEED SHOP</text></view></view><view class="shop card"><view class="shop-item" wx:for="{{view.seedTypes}}" wx:key="id"><image src="/assets/pet-{{item.id}}.png"/><view class="shop-label"><view>{{item.name}}</view><text>拥有 {{view.inventory[item.id]}} 颗</text></view><button class="small-outline" data-seed="{{item.id}}" bindtap="buy">{{item.cost}} 露珠</button></view></view>
+  </block>
+
+  <block wx:if="{{tab === 'profile'}}">
+    <view class="profile card"><image src="/assets/pet-sprout.png"/><view class="walk-title">你好，散步家</view><text>Lv.{{view.level}} · 今天也在好好长大</text></view>
+    <view class="stats"><view><text>{{view.streak}}</text><view>连续漫步天</view></view><view><text>{{view.totalPets}}</text><view>相遇的小伙伴</view></view><view><text>{{view.flowers}}</text><view>留下的小花</view></view></view>
+    <view class="settings card"><button bindtap="syncSteps" loading="{{syncing}}"><text>连接 / 同步微信运动</text><text>›</text></button><button bindtap="privacy"><text>隐私与数据说明</text><text>›</text></button><button bindtap="about"><text>关于芽芽漫步</text><text>›</text></button><button open-type="share"><text>邀请朋友看看花园</text><text>›</text></button><button bindtap="reset"><text>重新开始本机花园</text><text>›</text></button></view><view class="local-note"><view>本机存档 · 演示与微信数据独立保存</view><view>原创小小世界，感谢你来散步</view></view>
+  </block>
+  <view wx:if="{{privacyDialog}}" class="privacy-overlay" catchtouchmove="preventPrivacyScroll">
+    <view class="privacy-sheet">
+      <image class="privacy-pet" src="/assets/pet-sprout.png"/>
+      <view class="privacy-title">先认识一下，再一起出发</view>
+      <view class="privacy-copy">芽芽会在你主动选择时读取微信运动步数，或获取一次位置，用于伙伴养成和地图展示。不会持续追踪或上传你的行程。</view>
+      <button class="privacy-contract" bindtap="openPrivacyContract">查看{{privacyContractName}}</button>
+      <view class="privacy-actions">
+        <button class="privacy-decline" bindtap="declinePrivacyAuthorization">暂不授权</button>
+        <button id="yaya-privacy-agree" class="privacy-agree" open-type="agreePrivacyAuthorization" bindagreeprivacyauthorization="agreePrivacyAuthorization">同意并继续</button>
+      </view>
+      <view class="privacy-hint">暂不授权，也可以继续体验演示花园</view>
+    </view>
+  </view>
+  <view class="bottom-note">不着急，每一步都有意义 <text>✿</text></view>
+  <view class="tabbar"><button wx:for="{{tabs}}" wx:key="id" class="tab {{tab === item.id ? 'active' : ''}}" data-tab="{{item.id}}" bindtap="switchTab"><view class="tab-icon"><image src="/assets/icons/{{item.icon}}.png"/></view><text>{{item.name}}</text></button></view>
+</view>

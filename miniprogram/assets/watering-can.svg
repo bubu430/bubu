@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" fill="none">
+  <title>鼠尾草绿小水壶</title>
+  <ellipse cx="80" cy="136" rx="48" ry="7" fill="#6C8460" opacity=".12"/>
+  <path d="M103 63c16-14 36-10 36 7 0 15-13 30-27 28" stroke="#7A9B74" stroke-width="12"/>
+  <path d="M34 78 12 60l-7 9 30 34" fill="#A5BE98" stroke="#6F9069" stroke-width="2"/>
+  <path d="M29 74h81l6 43c2 11-11 16-40 16s-48-5-47-16V74Z" fill="#A6BC93" stroke="#78916A" stroke-width="2"/>
+  <ellipse cx="70" cy="75" rx="41" ry="10" fill="#C0D0AC" stroke="#78916A" stroke-width="2"/>
+  <ellipse cx="70" cy="74" rx="22" ry="4" fill="#829D75"/>
+  <path d="M43 90v23" stroke="#D4DFBC" stroke-width="6" stroke-linecap="round"/>
+  <path d="M66 101c7-9 17-9 24-1-2 13-16 18-24 1Z" fill="#E8E8C9"/>
+  <path d="m6 77-2 7m10-2-1 8m10-2 1 7" stroke="#9BBABE" stroke-width="3" stroke-linecap="round"/>
+  <path d="M113 40c0-8 9-16 9-16s9 8 9 16a9 9 0 0 1-18 0Z" fill="#B2CDCF"/>
+</svg>

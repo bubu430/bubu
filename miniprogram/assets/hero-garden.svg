@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" fill="none">
+  <title>奶油色阳光小花园背景</title>
+  <defs><linearGradient id="sky" x1="500" y1="0" x2="500" y2="560" gradientUnits="userSpaceOnUse"><stop stop-color="#F3F3DF"/><stop offset="1" stop-color="#E9EED4"/></linearGradient></defs>
+  <rect width="1000" height="560" rx="38" fill="url(#sky)"/>
+  <circle cx="813" cy="103" r="42" fill="#EBD7A6" opacity=".6"/>
+  <path d="M119 103c-2-16 12-26 27-21 10-22 41-21 51-1 18-3 31 7 29 22H119ZM651 165c0-12 10-20 23-16 8-18 31-17 39-1 14-2 23 6 21 17h-83Z" fill="#FFFEF3" opacity=".78"/>
+  <path d="M0 354c160-94 275-91 427-11 138 72 263 88 573-25v242H0V354Z" fill="#DEE7C7"/>
+  <path d="M0 437c165-68 278-24 439 19 184 49 382-40 561-48v152H0V437Z" fill="#CDDDB5"/>
+  <path d="M493 560c82-64 150-78 158-125 10-58-130-61-142-103" stroke="#F7F0DA" stroke-width="54" stroke-linecap="round"/>
+  <ellipse cx="111" cy="457" rx="80" ry="19" fill="#9DB583" opacity=".17"/>
+  <path d="M111 436v-86" stroke="#AE9870" stroke-width="12" stroke-linecap="round"/>
+  <path d="M113 241c-54-2-87 57-65 90-22 42 18 74 61 67 49 8 92-24 73-63 29-45-13-96-69-94Z" fill="#ABC18C"/>
+  <path d="M78 274c-13 10-20 23-19 36" stroke="#C8D7AA" stroke-width="9" stroke-linecap="round"/>
+  <ellipse cx="904" cy="434" rx="62" ry="16" fill="#9DB583" opacity=".17"/>
+  <path d="M904 419v-58" stroke="#AD946D" stroke-width="10" stroke-linecap="round"/>
+  <path d="M904 273c-42 0-69 38-54 67-19 32 9 57 51 53 40 8 69-17 56-47 21-35-11-74-53-73Z" fill="#96B180"/>
+  <path d="M876 298c-10 7-16 17-14 29" stroke="#B3C79C" stroke-width="7" stroke-linecap="round"/>
+  <path d="M226 506c-31-32-44-65-29-81 33-6 44 34 36 65 7-41 29-61 48-48 9 28-17 49-48 62" fill="#A9BE8A"/>
+  <path d="M784 493c-25-27-33-55-19-67 28-2 34 33 26 57 10-33 30-48 45-35 4 25-20 40-45 45" fill="#A9BE8A"/>
+  <g stroke="#90A976" stroke-width="3" stroke-linecap="round"><path d="M304 507v-31m22 38v-24m411 25v-34m26 40v-23"/></g>
+  <g fill="#F5D4A4"><path d="M304 460c7-8 18 1 12 8 9 5 0 16-7 10-5 9-16 1-11-7-8-5-1-15 6-11Z"/><path d="M737 466c7-8 18 1 12 8 9 5 0 16-7 10-5 9-16 1-11-7-8-5-1-15 6-11Z"/></g>
+  <g fill="#E8BAAA"><path d="M326 477c5-6 14 1 9 7 7 4 0 12-6 8-4 7-12 0-8-6-6-4-1-12 5-9Z"/><path d="M763 485c5-6 14 1 9 7 7 4 0 12-6 8-4 7-12 0-8-6-6-4-1-12 5-9Z"/></g>
+  <g fill="#CAAA6E"><circle cx="305" cy="470" r="3"/><circle cx="327" cy="485" r="2.5"/><circle cx="738" cy="476" r="3"/><circle cx="764" cy="493" r="2.5"/></g>
+  <path d="m342 149 3-9 3 9 9 3-9 3-3 9-3-9-9-3 9-3Z" fill="#CCB67D" opacity=".8"/>
+  <circle cx="698" cy="243" r="4" fill="#B2C18D"/>
+</svg>

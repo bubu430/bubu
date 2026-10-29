@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="140" viewBox="0 0 120 140" fill="none">
+  <title>杏色小花</title>
+  <path d="M60 121V66" stroke="#8CA479" stroke-width="6" stroke-linecap="round"/>
+  <path d="M59 105c-23 4-34-11-32-26 21-2 37 9 32 26Zm4-11c-3-20 13-32 33-29 0 20-13 34-33 29Z" fill="#A8BB8B"/>
+  <path d="M60 21c9-13 28-5 24 9 15-2 23 16 11 24 13 10 3 28-12 24-2 16-23 18-28 4-12 11-29-1-22-15-16-4-17-24-2-29-4-15 16-25 29-17Z" fill="#EFCFA4"/>
+  <circle cx="62" cy="51" r="17" fill="#DBAD71"/>
+  <circle cx="57" cy="48" r="2" fill="#98794E"/><circle cx="68" cy="48" r="2" fill="#98794E"/>
+  <path d="M59 56c2 3 5 3 7 0" stroke="#98794E" stroke-width="2" stroke-linecap="round"/>
+</svg>

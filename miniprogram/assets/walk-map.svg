@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="720" viewBox="0 0 1000 720" fill="none">
+  <title>原创手绘公园漫游地图，演示场景</title>
+  <defs>
+    <pattern id="grid" width="54" height="54" patternUnits="userSpaceOnUse"><path d="M54 0H0v54" stroke="#D8DFCA" stroke-width="1" opacity=".45"/></pattern>
+    <pattern id="water" width="70" height="36" patternUnits="userSpaceOnUse"><path d="M10 19c9 5 20 5 29 0" stroke="#C7DEDB" stroke-width="3" stroke-linecap="round" opacity=".7"/></pattern>
+    <g id="tree"><ellipse cy="27" rx="24" ry="8" fill="#8FA67B" opacity=".18"/><path d="M0 23V-5" stroke="#B29B72" stroke-width="7" stroke-linecap="round"/><path d="M0-43C-27-43-39-13-22 4-18 18 17 20 24 3 42-13 28-43 0-43Z" fill="#A6BE8B"/><path d="M-11-25c-7 4-10 11-8 18" stroke="#C3D3A9" stroke-width="5" stroke-linecap="round"/><path d="M1 7V-13" stroke="#92AD76" stroke-width="2" stroke-linecap="round"/></g>
+    <g id="tree-dark"><ellipse cy="26" rx="23" ry="7" fill="#8FA67B" opacity=".18"/><path d="M0 23V-4" stroke="#AA906B" stroke-width="6" stroke-linecap="round"/><path d="M0-42C-22-42-35-20-25-5-39 13 22 25 26 2 35-17 25-42 0-42Z" fill="#88A878"/><path d="M-12-25c-6 5-8 12-6 17" stroke="#A8C195" stroke-width="4" stroke-linecap="round"/></g>
+    <g id="bush"><ellipse rx="25" ry="14" fill="#B4C694"/><ellipse cx="-12" cy="-4" rx="13" ry="12" fill="#C1CFA5"/><ellipse cx="9" cy="-7" rx="15" ry="13" fill="#A8BF8A"/></g>
+    <g id="flowers"><path d="M-12 8V-4M4 10V-9M17 9V-2" stroke="#91AA75" stroke-width="2" stroke-linecap="round"/><path d="M-12-10c6-7 15 2 8 7 3 8-9 11-11 3-8 1-8-10 3-10Z" fill="#F4D5A8"/><path d="M4-15c6-7 15 2 8 7 3 8-9 11-11 3-8 1-8-10 3-10Z" fill="#EABEB0"/><path d="M17-8c6-7 15 2 8 7 3 8-9 11-11 3-8 1-8-10 3-10Z" fill="#F9EAD0"/><circle cx="-10" cy="-4" r="2" fill="#D8AE72"/><circle cx="6" cy="-9" r="2" fill="#CA9985"/><circle cx="19" cy="-2" r="2" fill="#D5B882"/></g>
+    <g id="bench"><ellipse cy="17" rx="26" ry="6" fill="#A9AE8D" opacity=".2"/><path d="M-19 8v12M19 8v12" stroke="#8C9270" stroke-width="4" stroke-linecap="round"/><rect x="-29" y="-12" width="58" height="9" rx="3" fill="#CDB48D"/><rect x="-29" y="1" width="58" height="9" rx="3" fill="#DCC5A1"/><path d="M-21-11v13M21-11v13" stroke="#AB9874" stroke-width="3"/></g>
+  </defs>
+  <rect width="1000" height="720" rx="32" fill="#EAF0D9"/>
+  <rect width="1000" height="720" rx="32" fill="url(#grid)"/>
+  <path d="M-40 19C113 4 175 96 146 179 119 257 45 261-15 220M817-20c-10 83 36 156 105 181 59 22 105-11 121-51M-20 577c79-83 172-44 222 37 28 45 31 87 23 126M783 729c-26-99 34-188 118-188 61 0 98 37 127 70" fill="#DDE7CA"/>
+  <path d="M-30 424c144 20 189-127 305-127 120 0 118 195 270 195 138 0 151-144 269-144 91 0 130 58 216 34" stroke="#DADCC2" stroke-width="70" stroke-linecap="round"/>
+  <path d="M-30 419c144 20 189-127 305-127 120 0 118 195 270 195 138 0 151-144 269-144 91 0 130 58 216 34" stroke="#FAF4DF" stroke-width="58" stroke-linecap="round"/>
+  <path d="M314-30c-38 95-17 174 19 230 22 33 28 62 4 94M744 395c41 109 24 215-2 355" stroke="#DADCC2" stroke-width="50" stroke-linecap="round"/>
+  <path d="M314-30c-38 95-17 174 19 230 22 33 28 62 4 94M744 395c41 109 24 215-2 355" stroke="#FAF4DF" stroke-width="40" stroke-linecap="round"/>
+  <path d="M594 212c-8-52 37-102 99-96 29-34 95-30 120 8 51 15 71 68 36 101-2 49-57 72-101 53-53 18-105-7-109-41-17-1-38-10-45-25Z" fill="#BCD3CD" stroke="#D4E2CF" stroke-width="12"/>
+  <path d="M594 212c-8-52 37-102 99-96 29-34 95-30 120 8 51 15 71 68 36 101-2 49-57 72-101 53-53 18-105-7-109-41-17-1-38-10-45-25Z" fill="url(#water)"/>
+  <ellipse cx="685" cy="174" rx="18" ry="9" fill="#9CB98A"/><path d="m685 174 14-8" stroke="#C1D1A9" stroke-width="2"/>
+  <ellipse cx="803" cy="219" rx="12" ry="7" fill="#A3BC91"/>
+  <path d="M602 144c6-14 12-21 22-23m-16 23c1-10 4-17 7-22" stroke="#8FAC83" stroke-width="3" stroke-linecap="round"/>
+  <path d="M185 516c60-30 128-13 150 26 26 45 9 92-46 99-37 4-77-16-100-40-25-26-30-67-4-85Z" fill="#DBE6C6"/>
+  <path d="M435 83c42-21 87-9 106 24 17 31-2 66-32 66-37 11-85-5-91-35-6-23-3-43 17-55Z" fill="#DCE7C7"/>
+  <use xlink:href="#tree" transform="translate(78 113) scale(1.3)"/><use xlink:href="#tree-dark" transform="translate(142 153) scale(.95)"/>
+  <use xlink:href="#tree" transform="translate(196 75) scale(.85)"/><use xlink:href="#tree-dark" transform="translate(48 242) scale(1.12)"/>
+  <use xlink:href="#tree" transform="translate(457 127) scale(.9)"/><use xlink:href="#tree-dark" transform="translate(510 123) scale(1.1)"/>
+  <use xlink:href="#tree-dark" transform="translate(916 90) scale(1.3)"/><use xlink:href="#tree" transform="translate(960 167) scale(.95)"/>
+  <use xlink:href="#tree" transform="translate(890 277) scale(1.05)"/><use xlink:href="#tree-dark" transform="translate(950 290) scale(.85)"/>
+  <use xlink:href="#tree-dark" transform="translate(91 584) scale(1.2)"/><use xlink:href="#tree" transform="translate(152 634) scale(1.02)"/>
+  <use xlink:href="#tree" transform="translate(460 625) scale(1.3)"/><use xlink:href="#tree-dark" transform="translate(526 652) scale(1.1)"/>
+  <use xlink:href="#tree" transform="translate(887 615) scale(1.25)"/><use xlink:href="#tree-dark" transform="translate(944 657) scale(.95)"/>
+  <use xlink:href="#tree-dark" transform="translate(467 266) scale(.8)"/><use xlink:href="#tree" transform="translate(527 303) scale(1)"/>
+  <use xlink:href="#bush" transform="translate(405 219)"/><use xlink:href="#bush" transform="translate(559 113) scale(.9)"/>
+  <use xlink:href="#bush" transform="translate(665 567)"/><use xlink:href="#bush" transform="translate(816 521) scale(1.2)"/>
+  <use xlink:href="#bush" transform="translate(134 480) scale(.8)"/><use xlink:href="#bush" transform="translate(250 652)"/>
+  <use xlink:href="#flowers" transform="translate(201 551) scale(1.1)"/><use xlink:href="#flowers" transform="translate(257 530)"/><use xlink:href="#flowers" transform="translate(303 574) scale(1.2)"/>
+  <use xlink:href="#flowers" transform="translate(226 596)"/><use xlink:href="#flowers" transform="translate(275 611) scale(.8)"/>
+  <use xlink:href="#flowers" transform="translate(168 247)"/><use xlink:href="#flowers" transform="translate(207 230) scale(.8)"/>
+  <use xlink:href="#flowers" transform="translate(845 463) scale(.95)"/><use xlink:href="#flowers" transform="translate(883 479) scale(.85)"/>
+  <use xlink:href="#flowers" transform="translate(414 536) scale(.8)"/><use xlink:href="#flowers" transform="translate(627 343) scale(.8)"/>
+  <use xlink:href="#bench" transform="translate(592 308) rotate(14)"/><use xlink:href="#bench" transform="translate(169 390) rotate(-28)"/>
+  <use xlink:href="#bench" transform="translate(787 591) rotate(-80)"/>
+  <ellipse cx="450" cy="430" rx="43" ry="13" fill="#9DAF85" opacity=".18"/>
+  <path d="M419 395h62v35c-10 8-52 8-62 0v-35Z" fill="#FFF8E5" stroke="#D2C7A8" stroke-width="2"/>
+  <path d="m410 398 40-31 41 31H410Z" fill="#D8A16F" stroke="#C58D61" stroke-width="2" stroke-linejoin="round"/>
+  <rect x="439" y="408" width="20" height="27" rx="9" fill="#A3B793"/>
+  <path d="M427 415h5m34 0h5" stroke="#D8CBAC" stroke-width="5" stroke-linecap="round"/>
+  <path d="M292 296c59 6 92 79 129 124s76 67 124 67c55 0 102-34 135-71" stroke="#AAC08C" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 13"/>
+  <circle cx="292" cy="296" r="10" fill="#FDF9EC" stroke="#92AD77" stroke-width="4"/>
+  <circle cx="680" cy="416" r="10" fill="#FDF9EC" stroke="#92AD77" stroke-width="4"/>
+  <g fill="#D3DFC0"><ellipse cx="371" cy="77" rx="4" ry="8" transform="rotate(-24 371 77)"/><ellipse cx="384" cy="81" rx="4" ry="8" transform="rotate(26 384 81)"/><ellipse cx="562" cy="561" rx="4" ry="8" transform="rotate(-24 562 561)"/><ellipse cx="575" cy="565" rx="4" ry="8" transform="rotate(26 575 565)"/><ellipse cx="82" cy="343" rx="4" ry="8" transform="rotate(-24 82 343)"/><ellipse cx="95" cy="347" rx="4" ry="8" transform="rotate(26 95 347)"/></g>
+  <g fill="#D4BC8F"><circle cx="369" cy="573" r="3"/><circle cx="378" cy="580" r="2"/><circle cx="67" cy="481" r="3"/><circle cx="77" cy="486" r="2"/><circle cx="836" cy="311" r="3"/><circle cx="845" cy="318" r="2"/></g>
+</svg>

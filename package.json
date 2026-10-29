@@ -1,0 +1,12 @@
+{
+  "name": "yayawalk",
+  "version": "0.1.0",
+  "private": true,
+  "description": "芽芽漫步 · 原创微信步行养成原型",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "preview": "node scripts/preview.js",
+    "check": "node scripts/check.js"
+  },
+  "engines": { "node": ">=20" }
+}

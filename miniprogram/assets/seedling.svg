@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200" fill="none">
+  <title>一盆正在努力长大的小芽</title>
+  <ellipse cx="100" cy="178" rx="55" ry="8" fill="#8B795B" opacity=".12"/>
+  <path d="m61 116 9 45c2 9 12 14 30 14s28-5 30-14l9-45H61Z" fill="#DDA67D" stroke="#C58D65" stroke-width="2"/>
+  <path d="m75 129 5 27" stroke="#ECC5A1" stroke-width="6" stroke-linecap="round"/>
+  <rect x="55" y="107" width="90" height="21" rx="9" fill="#EDC6A0" stroke="#CDA077" stroke-width="2"/>
+  <ellipse cx="100" cy="108" rx="35" ry="5" fill="#866951"/>
+  <path d="M100 109V66" stroke="#78965D" stroke-width="7" stroke-linecap="round"/>
+  <path d="M99 84C66 89 50 68 55 46c29-2 50 14 44 38Z" fill="#A7BF84"/>
+  <path d="M104 69c-4-29 19-46 47-42 0 28-19 48-47 42Z" fill="#7FA371"/>
+  <path d="m67 58 27 23m15-17 26-24" stroke="#D9E3BB" stroke-width="2.5" stroke-linecap="round"/>
+  <ellipse cx="89" cy="143" rx="3" ry="4" fill="#8C654C"/>
+  <ellipse cx="111" cy="143" rx="3" ry="4" fill="#8C654C"/>
+  <path d="M96 152c2 3 6 3 8 0" stroke="#A47757" stroke-width="2" stroke-linecap="round"/>
+  <path d="m37 87 2-6 2 6 6 2-6 2-2 6-2-6-6-2 6-2Z" fill="#CFAD70"/>
+  <circle cx="159" cy="75" r="3" fill="#B5C695"/>
+</svg>
